@@ -1,0 +1,28 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Backend (Java / Maven)
+backend/target/
+backend/src/main/resources/application.properties
+*.log
+
+# ===== Frontend (React / Vite) =====
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
